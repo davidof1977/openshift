@@ -25,14 +25,14 @@ public class Aplicacion extends HttpServlet {
 	@Override
     protected void doGet(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
         System.out.println("Salida GET");
-        response.getWriter().println("Salida GET version master");  
+        response.getWriter().println("Salida GET version master David");  
         response.getWriter().flush();
     }
 
     @Override
     protected void doPost(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
         System.out.println("Salida POST");
-        response.getWriter().println("Salida POST");
+        response.getWriter().println("Salida POST David");
         response.getWriter().flush();
 
     }
